@@ -311,21 +311,13 @@ class Logger {
   static banner() {
     if (this.quiet) return;
     const shield = `
-${ANSI.electric}${ANSI.bold}      /\\             ____  _             _  __      _       _     _     
-     /  \\           |  _ \\| |           | |/ /     (_)     | |   | |    
-    / /\\ \\          | |_) | |_   _  ___ | ' / _ __  _  __ _| |__ | |_   
-   / /  \\ \\         |  _ <| | | | |/ _ \\|  < | '_ \\| |/ _\` | '_ \\| __|  
-  / / /\\ \\ \\        | |_) | | |_| |  __/| . \\| | | | | (_| | | | | |_   
- / / /  \\ \\ \\       |____/|_|\\__,_|\\___||_|\\_\\_| |_|_|\\__, |_| |_|\\__|  
-/_/ / /\\ \\ \\_\\                                         __/ |            
-\\_\\/ /  \\ \\/_/         ${ANSI.white}One port. Many paths.${ANSI.electric}          |___/             
-  \\/_/\\/\\_/            ${ANSI.dim}Stream Without Limits${ANSI.electric}
+${ANSI.electric}${ANSI.bold}  ${ANSI.white}One port. Many paths.${ANSI.electric} ${ANSI.dim}Stream Without Limits${ANSI.electric}
 ${ANSI.reset}`;
     console.log(shield);
     console.log(`${ANSI.cyan}================================================================${ANSI.reset}`);
-    console.log(`${ANSI.bold}${ANSI.electric}  VETTNESS GATE ${ANSI.white}• Running on ${bkPlatformName()}${ANSI.reset}`);
-    console.log(`${ANSI.dim}  Channel: Vettness Net (https://t.me/Vettness_Net)${ANSI.reset}`);
-    console.log(`${ANSI.dim}  Sponsor: WhiteDNS (https://t.me/whitedns)${ANSI.reset}`);
+    console.log(`${ANSI.bold}${ANSI.electric}  VETTNESS ${ANSI.white}• Running on ${bkPlatformName()}${ANSI.reset}`);
+    console.log(`${ANSI.dim}  Owner: Javad ${ANSI.reset}`);
+    console.log(`${ANSI.dim}${ANSI.reset}`);
     console.log(`${ANSI.cyan}================================================================${ANSI.reset}\n`);
   }
 
