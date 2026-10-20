@@ -4624,7 +4624,7 @@ async function startGate(userConfig = {}) {
   Logger.section('Vettness Gate Active');
   Logger.item('Host', bkPlatformName());
   Logger.item('Web Panel', panelUrl);
-  Logger.item('Sponsor', 'WhiteDNS (https://t.me/whitedns)');
+  Logger.item('Owner', 'Javad');
 
   // Graceful shutdown
   const shutdown = () => {
